@@ -1,0 +1,388 @@
+.block-reviews {
+}
+
+.h2-flex-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block-reviews-slider {
+}
+
+.block-reviews-slider-item {
+    background: #FFFFFF;
+    border: 1rem solid #F2F2F2;
+    padding-top: 42rem;
+    padding-bottom: 48rem;
+    padding-left: 34rem;
+    padding-right: 34rem;
+    box-sizing: border-box;
+
+    &__title {
+        font-weight: 600;
+        font-size: 18rem;
+        line-height: 24rem;
+        color: #121212;
+
+        height: 24rem;
+        overflow: hidden;
+
+        margin-bottom: 5rem;
+    }
+
+    &__date {
+        font-weight: 400;
+        font-size: 14rem;
+        line-height: 17rem;
+        color: #65656B;
+        margin-bottom: 12rem;
+    }
+
+    &__introtext {
+        font-weight: 400;
+        font-size: 15rem;
+        line-height: 25rem;
+        color: #65656B;
+
+        height: 202rem;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width : 660px) {
+    .block-reviews {
+    }
+    
+    .h2-flex-reviews {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 12rem;
+
+        h2{
+            width: 100%;
+        }
+    }
+    
+    .block-reviews-slider {
+        margin-right: -15rem;
+    }
+    
+    .block-reviews-slider-item {
+        // border: 1rem solid #F2F2F2;
+        padding-top: 42rem;
+        padding-bottom: 12rem;
+        padding-left: 34rem;
+        padding-right: 32rem;
+        box-sizing: border-box;
+    
+        &__title {
+            
+        }
+    
+        &__date {
+            
+        }
+    
+        &__introtext {
+            
+        }
+    }
+} // @media only screen and (max-width : 660px)
+
+
+
+
+
+
+
+
+
+
+
+.page-reviews{
+
+}
+
+.page-reviews-list{
+    display: flex;
+    // align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    .block-reviews-slider-item{
+        width: calc(100% / 4 - 0rem * (4 - 1) / 4);
+        margin-right: 0rem;
+        
+        &:nth-child(4n){
+            margin-right: 0;
+        }
+    }
+}
+
+
+
+
+.page-reviews-banner {
+    background: #FFFFFF;
+    padding-top: 60rem;
+    padding-bottom: 60rem;
+    box-sizing: border-box;
+    margin-top: 50rem;
+
+    &__title {
+        font-weight: 700;
+        font-size: 35rem;
+        line-height: 28rem;
+        color: #121212;
+        text-align: center;
+        margin-bottom: 50rem;
+    }
+
+    &__description {
+        font-weight: 500;
+        font-size: 24rem;
+        line-height: 144.34%;
+        color: #121212;
+        text-align: center;
+        margin-bottom: 35rem;
+    }
+
+    &__button {
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width : 660px) {
+    .page-reviews{
+
+    }
+    
+    .page-reviews-list{
+        display: flex;
+        // align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        
+        .block-reviews-slider-item{
+            // width: calc(100% / 2 - 0rem * (2 - 1) / 2);
+            width: 100%;
+            padding-top: 20rem;
+            padding-bottom: 20rem;
+            padding-left: 19rem;
+            padding-right: 15rem;
+            box-sizing: border-box;
+            // margin-right: 0rem;
+            
+            // &:nth-child(4n){
+            //     margin-right: 0;
+            // }
+        }
+    }
+    
+    
+    
+    
+    .page-reviews-banner {
+        padding-top: 40rem;
+        padding-bottom: 70rem;
+        padding-left: 15rem;
+        padding-right: 15rem;
+
+        margin-top: 50rem;
+        margin-left: -15rem;
+        margin-right: -15rem;
+    
+        &__title {
+            font-size: 26rem;
+            line-height: 28rem;
+            margin-bottom: 26rem;
+        }
+    
+        &__description {
+            font-size: 14rem;
+            line-height: 144.34%;
+            margin-bottom: 26rem;
+        }
+    
+        &__button {
+            text-align: center;
+        }
+    }
+    
+} // @media only screen and (max-width : 660px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-reviews-inputs{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    max-width: 928rem;
+}
+
+.modal-reviews-inputs-item{
+    width: calc(100% / 2 - 28rem * (2 - 1) / 2);
+    margin-right: 28rem;
+    margin-bottom: 28rem;
+
+
+    
+    &:nth-child(2n){
+        margin-right: 0;
+    }
+
+    &[data-id="name"]{
+
+    }
+
+    &[data-id="name2"]{
+
+    }
+
+    &[data-id="tel"]{
+
+    }
+
+    &[data-id="email"]{
+        
+    }
+
+    &[data-id="comment"]{
+        height: 147rem;
+    }
+
+    &[data-id="button"]{
+        height: 147rem;
+    }
+
+
+    input{
+        margin-bottom: 0;
+    }
+
+    textarea{
+        height: 100%;
+    }
+
+    .btn-black{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-width : 660px) {
+    .modal-reviews-inputs{
+        // display: flex;
+        // align-items: flex-start;
+        // justify-content: flex-start;
+        // flex-wrap: wrap;
+        
+        // max-width: 928rem;
+    }
+    
+    .modal-reviews-inputs-item{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15rem;
+        
+        &:nth-child(2n){
+            margin-right: 0;
+        }
+    
+        &[data-id="name"]{
+            // order: 1;
+        }
+    
+        &[data-id="name2"]{
+            // order: 2;
+        }
+    
+        &[data-id="tel"]{
+            // order: 3;
+        }
+    
+        &[data-id="email"]{
+            // order: 4;
+        }
+    
+        &[data-id="comment"]{
+            height: 128rem;
+        }
+    
+        &[data-id="button"]{
+            height: initial;
+        }
+    
+    
+        input{
+            margin-bottom: 0;
+        }
+    
+        textarea{
+            
+        }
+    
+        .btn-black{
+            
+        }
+        
+    }
+} // @media only screen and (max-width : 660px)
+
+
+
+
+
+
+
+
+
+
+
+
+.our-customers-slider-item{
+    a{
+        display: block;
+        width: 100%;
+        height: 450rem;
+        overflow: hidden;
+    }
+
+    img{
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+    }
+}

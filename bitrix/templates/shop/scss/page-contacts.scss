@@ -1,0 +1,347 @@
+.page-contacts {
+
+}
+
+.page-contacts-info {
+    display: flex;
+    // align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    padding-top: 50rem;
+    padding-bottom: 62rem;
+    padding-left: 46rem;
+    padding-right: 86rem;
+    box-sizing: border-box;
+
+    font-weight: 500;
+    font-size: 16rem;
+    line-height: 153.84%;
+    color: #121212;
+
+    background: #FFFFFF;
+}
+
+.page-contacts-info-col-contacts {
+    width: 33%;
+    border-right: 1rem solid rgba(18,18,18, 0.2);
+    box-sizing: border-box;
+    
+    &__tel {
+        font-weight: 700;
+        font-size: 24rem;
+        line-height: 144.34%;
+        color: #121212;
+        margin-bottom: 23rem;
+
+        a{
+            color: #D6B16A;
+            transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1.0) 0s;
+
+            &:hover{
+                opacity: 0.7;
+            }
+        }
+    }
+
+    &__messengers {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 26rem;
+    }
+
+    &__messengers-title{
+        margin-right: 21rem;
+    }
+
+    &__messengers-list{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        
+        a{
+            transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1.0) 0s;
+            margin-right: 11rem;
+
+            &:last-child{
+                margin-right: 0;
+            }
+
+            &:hover{
+                opacity: 0.7;
+            }
+        }
+    }
+
+    &__email {
+        margin-bottom: 1em;
+
+        a{
+            text-decoration: underline;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__addresses {
+    }
+
+
+    &__addresses-address-item{
+        margin-bottom: 0.5em;
+    }
+
+    &__addresses-address-item-address{
+
+    }
+
+    &__addresses-address-item-schedule{
+        font-size: 0.7em;
+        line-height: 1.285;
+    }
+}
+
+.page-contacts-info-col-requisites {
+    width: 20%;
+    border-right: 1rem solid rgba(18,18,18, 0.2);
+    box-sizing: border-box;
+    padding-left: 36rem;
+}
+
+.page-contacts-info-col-requisites-link {
+    font-weight: 600;
+    font-size: 16rem;
+    line-height: 144.34%;
+    text-decoration: underline;
+    color: #121212;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    
+    &::after{
+        content: ' ';
+        display: block;
+        
+        width: 32rem;
+        height: 32rem;
+
+        background: url(../images/ico-pdf.svg) no-repeat center center;
+        background-size: 100% auto;
+        margin-left: 5rem;
+    }
+}
+
+.page-contacts-info-col-form {
+    width: 47%;
+    padding-left: 62rem;
+    box-sizing: border-box;
+
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+
+        margin-top: 29rem;
+
+        .form-item {
+            min-width: 340rem;
+            width: 340rem;
+            margin-right: 15rem;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.form-disclaimer{
+    font-weight: 600;
+    font-size: 12rem;
+    line-height: 20rem;
+    color: #65656B;
+    margin-top: 23rem;
+
+    a{
+        text-decoration: underline;
+        color: #D6B16A;
+
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+
+.btn {
+}
+.btn-black {
+}
+.submit {
+}
+.page-contacts-map {
+    height: 405rem;
+}
+
+#map{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 660px) {
+    .page-contacts {
+        .container{
+            // display: flex;
+            // flex-wrap: wrap;
+        }
+    }
+    
+    .page-contacts-info {
+        display: flex;
+        // align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        
+        padding-top: 25rem;
+        padding-bottom: 25rem;
+        padding-left: 15rem;
+        padding-right: 15rem;
+        box-sizing: border-box;
+        margin-left: -15rem;
+        margin-right: -15rem;
+    
+        font-size: 14rem;
+        line-height: 153.84%;
+    }
+    
+    .page-contacts-info-col-contacts {
+        width: 100%;
+        border-right: none;
+        margin-bottom: 30rem;
+        
+        &__tel {
+            font-size: 18rem;
+            line-height: 144.34%;
+            margin-bottom: 23rem;
+    
+            a{
+                &:hover{
+                    
+                }
+            }
+        }
+    
+        &__messengers {
+            width: 100%;
+            margin-bottom: 13rem;
+        }
+    
+        &__messengers-title{
+            width: 100%;
+            margin-right: 0;
+        }
+    
+        &__messengers-list{
+            
+            a{
+                
+    
+                &:last-child{
+                    
+                }
+    
+                &:hover{
+                    
+                }
+            }
+        }
+    
+        &__email {
+            margin-bottom: 1em;
+    
+            a{
+                text-decoration: underline;
+    
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    
+        &__addresses {
+        }
+    }
+    
+    .page-contacts-info-col-requisites {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 40rem;
+    }
+    
+    .page-contacts-info-col-requisites-link {
+        
+        &::after{
+            
+        }
+    }
+    
+    .page-contacts-info-col-form {
+        width: 100%;
+        padding-left: 0;
+    
+        form{
+            flex-wrap: wrap;
+            margin-top: 16rem;
+    
+            .form-item {
+                min-width: 100%;
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 15rem;
+            }
+
+            .btn{
+                width: 100%;
+            }
+        }
+    }
+    
+    .form-disclaimer{
+        margin-top: 16rem;
+    
+        a{
+
+            &:hover{
+                
+            }
+        }
+    }
+    
+    .btn {
+    }
+    .btn-black {
+    }
+    .submit {
+    }
+    .page-contacts-map {
+        // height: 405rem;
+        margin-left: -15rem;
+        margin-right: -15rem;
+    }
+    
+    #map{
+        height: 100%;
+    }
+} // @media only screen and (max-width : 660px)

@@ -1,0 +1,424 @@
+.page-installment-and-credit-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    .page-installment-and-credit-block1 &{
+        align-items: center;
+    }
+}
+
+.page-installment-and-credit-flex-col {
+
+    &:first-child{
+        min-width: 45%;
+        width: 45%;
+    }
+}
+
+
+
+@media only screen and (max-width : 660px) {
+    .page-installment-and-credit-flex {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    
+        .page-installment-and-credit-block1 &{
+            // align-items: center;
+        }
+    }
+    
+    .page-installment-and-credit-flex-col {
+        width: 100%;
+
+        &:first-child{
+            min-width: 100%;
+            width: 100%;
+        }
+    }
+} // @media only screen and (max-width : 660px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-installment-and-credit-banks {
+    margin-bottom: 27rem;
+}
+
+.page-installment-and-credit-banks-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.page-installment-and-credit-banks-list-item {
+    img{
+        height: 68rem;
+        mix-blend-mode: darken;
+    }
+}
+
+
+
+@media only screen and (max-width : 660px) {
+    .page-installment-and-credit-banks {
+        margin-bottom: 35rem;
+    }
+    
+    .page-installment-and-credit-banks-list {
+        // align-items: center;
+        // justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .page-installment-and-credit-banks-list-item {
+        width: calc(100% / 2 - 0px * (2 - 1) / 2);
+        margin-right: 0px;
+        
+        &:nth-child(2n){
+            margin-right: 0;
+        }
+
+        img{
+            height: 42rem;
+        }
+    }
+} // @media only screen and (max-width : 660px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-installment-and-credit-block1 {
+    margin-top: 50rem;
+    margin-bottom: 50rem;
+}
+
+.page-installment-and-credit-block1-left {
+
+}
+
+.page-installment-and-credit-block1-left-item {
+    margin-bottom: 20rem;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 21rem;
+        line-height: 30rem;
+        color: #121212;
+        margin-bottom: 20rem;
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 16rem;
+        line-height: 30rem;
+        color: #121212;
+    }
+
+    &__brown{
+        font-weight: 700;
+        font-size: 21rem;
+        line-height: 30rem;
+        color: #D6B16A;
+    }
+}
+
+.page-installment-and-credit-block1-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    
+    align-self: center;
+}
+
+.page-installment-and-credit-block1-right-item {
+    margin-right: 111rem;
+
+    &:last-child{
+        margin-right: 0;
+    }
+    
+    &__title {
+        font-weight: 700;
+        font-size: 98rem;
+        line-height: 98rem;
+        color: #D6B16A;
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 21rem;
+        line-height: 30rem;
+        color: #121212;
+    }
+}
+
+
+
+@media only screen and (max-width : 660px) {
+    .page-installment-and-credit-block1 {
+        margin-top: 50rem;
+        margin-bottom: 50rem;
+    }
+    
+    .page-installment-and-credit-block1-left {
+    
+    }
+    
+    .page-installment-and-credit-block1-left-item {
+        margin-bottom: 20rem;
+    
+        &:last-child{
+            margin-bottom: 0;
+        }
+    
+        &__title {
+            font-size: 19rem;
+            line-height: 30rem;
+            margin-bottom: 0rem;
+        }
+    
+        &__description {
+            font-size: 14rem;
+            line-height: 30rem;
+        }
+    
+        &__brown{
+            // font-weight: 700;
+            // font-size: 21rem;
+            // line-height: 30rem;
+            // color: #D6B16A;
+        }
+    }
+    
+    .page-installment-and-credit-block1-right {
+        // display: flex;
+        // align-items: center;
+        // justify-content: flex-start;
+        // flex-wrap: nowrap;
+        
+        // align-self: center;
+    }
+    
+    .page-installment-and-credit-block1-right-item {
+        margin-right: initial;
+    
+        &:last-child{
+            margin-left: auto;
+        }
+        
+        &__title {
+            font-size: 48rem;
+            line-height: 98rem;
+        }
+    
+        &__description {
+            font-size: 16rem;
+            line-height: 20rem;
+        }
+    }
+} // @media only screen and (max-width : 660px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-installment-and-credit-steps{
+    margin-bottom: 50rem;
+    
+    .block-good1-list{
+        padding-left: 178rem;
+        padding-right: 178rem;
+        box-sizing: border-box;
+    }
+}
+
+.page-installment-and-credit-steps-title{
+    text-align: center;
+    margin-bottom: 55rem;
+}
+
+
+
+@media only screen and (max-width : 660px) {
+    .page-installment-and-credit-steps{
+        margin-bottom: 50rem;
+        
+        .block-good1-list{
+            padding-left: 0;
+            padding-right: 0;
+            box-sizing: border-box;
+        }
+    }
+    
+    .page-installment-and-credit-steps-title{
+        text-align: left;
+        margin-bottom: 36rem;
+    }
+} // @media only screen and (max-width : 660px)
+
+
+
+
+
+
+
+
+
+
+
+
+.page-installment-and-credit-conditions{
+    margin-bottom: 50rem;
+}
+
+.page-installment-and-credit-conditions-left{
+    
+}
+
+.page-installment-and-credit-conditions-right{
+    
+}
+
+
+
+.page-installment-and-credit-conditions-1-right{
+
+}
+
+.page-installment-and-credit-conditions-1-right-item{
+    margin-bottom: 14rem;
+}
+
+.page-installment-and-credit-conditions-1-right-item__title{
+    font-weight: 400;
+    font-size: 21rem;
+    line-height: 30rem;
+    color: #121212;
+}
+
+.page-installment-and-credit-conditions-1-right-item__value{
+    font-weight: 700;
+    font-size: 36rem;
+    line-height: 44rem;
+    color: #D6B16A;
+}
+
+.page-installment-and-credit-conditions-1-button{
+    margin-top: 28rem;
+}
+
+
+
+
+
+
+.page-installment-and-credit-conditions-2-right-flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .page-installment-and-credit-conditions-1-right-item{
+        width: 50%;
+        margin-bottom: 24rem;
+    }
+    
+}
+
+
+
+@media only screen and (max-width : 660px) {
+    .page-installment-and-credit-conditions{
+        margin-bottom: 50rem;
+    }
+    
+    .page-installment-and-credit-conditions-left{
+        
+    }
+    
+    .page-installment-and-credit-conditions-right{
+        
+    }
+    
+    
+    
+    .page-installment-and-credit-conditions-1-right{
+        margin-top: 19rem;
+    }
+    
+    .page-installment-and-credit-conditions-1-right-item{
+        margin-bottom: 15.56rem;
+    }
+    
+    .page-installment-and-credit-conditions-1-right-item__title{
+        font-size: 18rem;
+        line-height: 27rem;
+    }
+    
+    .page-installment-and-credit-conditions-1-right-item__value{
+        font-size: 30rem;
+        line-height: 37rem;
+    }
+    
+    .page-installment-and-credit-conditions-1-button{
+        // margin-top: 28rem;
+    }
+    
+    
+    
+    
+    
+    
+    .page-installment-and-credit-conditions-2-right-flex{
+        
+        .page-installment-and-credit-conditions-1-right-item{
+            width: 100%;
+            margin-bottom: 15rem;
+        }
+        
+    }
+} // @media only screen and (max-width : 660px)
+
+
+
+

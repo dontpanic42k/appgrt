@@ -1,0 +1,63 @@
+.stories{
+    margin-bottom: 40rem;
+}
+
+.stories.carousel{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stories.carousel .story{
+    // margin: 6px !important;
+}
+
+#zuck-modal-content .story-viewer .head .time{
+    display: none !important;
+}
+
+#zuck-modal-content .story-viewer .head .left{
+    /* width: 100%; */
+}
+
+#zuck-modal-content .story-viewer .head .left .info{
+    max-width: calc(100% - 70px) !important;
+}
+
+
+
+
+
+.stories.carousel .story{
+    width: 133rem !important;
+    height: initial !important;
+    max-width: 133rem !important;
+    max-height: initial !important;
+
+    margin-right: 40rem !important;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.stories.carousel .story > .item-link > .info .name{
+    font-weight: 700 !important;
+    font-size: 16rem !important;
+    color: #000 !important;
+}
+
+.stories.carousel .story > .item-link > .item-preview{
+    width: 133rem !important;
+    height: 133rem !important;
+    max-width: 133rem !important;
+    max-height: 133rem !important;
+}
+
+.stories.snapgram .story > .item-link > .item-preview{
+    padding: 4rem !important;
+    background: #D6B16A !important;
+}
+
+.stories.snapgram .story.seen > a > .item-preview{
+    filter: grayscale(1);
+}

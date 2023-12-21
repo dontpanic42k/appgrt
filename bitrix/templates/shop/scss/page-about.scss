@@ -1,0 +1,319 @@
+.page-about-first{
+    width: 100%;
+    height: 495rem;
+
+    position: relative;
+    // margin-top: -48rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // flex-wrap: wrap;
+    
+    .container{
+        position: relative;
+        z-index: 10;
+    }
+}
+
+.page-about-first-ava{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: center center;
+
+        position: relative;
+        z-index: 1;
+
+        transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1.0) 0s;
+    }
+
+    // &::before{
+    //     content: ' ';
+    //     display: block;
+        
+    //     width: 100%;
+    //     height: 100%;
+
+    //     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     z-index: 5;
+    // }
+}
+
+.page-about-first-info{
+    &__logo{
+        text-align: center;
+        margin-bottom: 43rem;
+
+        a{
+            display: inline-block;
+            transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1.0) 0s;
+
+            &:hover{
+                opacity: 0.7;
+            }
+        }
+
+        img{
+            width: 413rem;
+        }
+    }
+
+    &__description{
+        font-weight: 700;
+        font-size: 24rem;
+        line-height: 144.34%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+
+
+
+@media only screen and (max-width : 660px) {
+    .page-about-first{
+        height: 353rem;
+    
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        // // flex-wrap: wrap;
+        
+        .container{
+            
+        }
+    }
+    
+    .page-about-first-ava{
+
+        img{
+            
+        }
+    }
+    
+    .page-about-first-info{
+        &__logo{
+            margin-bottom: 16rem;
+    
+            a{
+    
+                &:hover{
+                    
+                }
+            }
+    
+            img{
+                width: 191rem;
+            }
+        }
+    
+        &__description{
+            font-size: 18rem;
+            line-height: 144.34%;
+        }
+    }
+} // @media only screen and (max-width : 660px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-about-interior{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.page-about-interior-item{
+    height: 532rem;
+    margin-bottom: 4rem;
+
+    &[data-id="1"]{
+        width: calc(64.6875% - 6rem);
+        margin-right: 6rem;
+    }
+
+    &[data-id="2"]{
+        width: 35.3125%;
+    }
+
+    &[data-id="3"]{
+        width: 35.3125%;
+        margin-right: 6rem;
+    }
+
+    &[data-id="4"]{
+        width: calc(64.6875% - 6rem);
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+
+
+
+@media only screen and (max-width : 660px) {
+    .page-about-interior{
+        flex-wrap: nowrap;
+        overflow: scroll;
+        padding-left: 15rem;
+        // padding-right: 0rem;
+        padding-right: 9rem;
+        padding-bottom: 15rem;
+    }
+    
+    .page-about-interior-item{
+        min-width: 260rem !important;
+        height: 281rem;
+        margin-bottom: 0;
+        margin-right: 6rem !important;
+    
+        &[data-id="1"]{
+            width: initial;
+            margin-right: 15rem;
+        }
+    
+        &[data-id="2"]{
+            width: initial;
+        }
+    
+        &[data-id="3"]{
+            width: initial;
+            margin-right: 6rem;
+        }
+    
+        &[data-id="4"]{
+            width:initial;
+        }
+    
+        img{
+            
+        }
+    }
+    
+} // @media only screen and (max-width : 660px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-about-vacancies{
+
+}
+
+.page-about-vacancies-flex{
+    display: flex;
+    // align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.page-about-vacancies-flex-left{
+    min-width: calc(66.7% - 73rem);
+    width: calc(66.7% - 73rem);
+    // min-width: calc(63% - 73rem);
+    // width: calc(63% - 73rem);
+    margin-right: 73rem;
+    box-sizing: border-box;
+}
+
+.page-about-vacancies-flex-right{
+    min-width: 33.3%;
+    width: 33.3%;
+    // min-width: 37%;
+    // width: 37%;
+
+    img{
+        width: 100%;
+        margin-bottom: 30rem;
+    }
+
+    .btn{
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width : 660px) {
+    .page-about-vacancies{
+
+    }
+    
+    .page-about-vacancies-flex{
+        
+    }
+    
+    .page-about-vacancies-flex-left{
+        min-width: 100%;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .page-about-vacancies-flex-right{
+        display: none;
+        // min-width: 100%;
+        // width: 100%;
+    
+        // img{
+        //     width: 100%;
+        //     margin-bottom: 30rem;
+        // }
+    
+        // .btn{
+        //     width: 100%;
+        // }
+    }
+} // @media only screen and (max-width : 660px)

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+a, a:focus, a:hover{
+    // color:#ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+a:focus{
+    text-decoration:none;
+}
+
+dl, ol, ul {
+    // margin-top: 0;
+    // margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+
+
+img{
+    border: none;
+    display: block;
+}
+
+
+.clear{
+    clear: both;
+    width: 100%;
+}
+
+.clearfix:before,
+.clearfix:after{
+    display: table;
+    content: " ";
+}
+
+.clearfix:after{
+    clear: both;
+}
